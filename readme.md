@@ -30,3 +30,13 @@ QMK is developed and maintained by Jack Humbert of OLKB with contributions from 
 ## Documentation
 
 [https://docs.qmk.fm](https://docs.qmk.fm) is hosted on [Gitbook](https://www.gitbook.com/book/qmk/firmware/details) and [GitHub](/docs/) (they are synced). You can request changes by making a fork and [pull request](https://github.com/qmk/qmk_firmware/pulls), or by clicking the "suggest an edit" link on any page of the Docs.
+
+
+-------------DANNZZOR NOTES--------------
+
+// make the build
+make dz60:dannzzor
+
+// unplug the DZ60, hold B+Space and plug it back in. now in boot mode, run:
+// this will program it. 
+make dz60:dannzzor:dfu
